@@ -82,7 +82,7 @@ export const CHRISTMAS_SCENE = `<svg xmlns="http://www.w3.org/2000/svg" viewBox=
 .glow{opacity:.16}.bulb{opacity:.9}.wire{stroke:#3f4f46;opacity:.45}
 .pine{fill:#2f6b4a;opacity:.55}.trunk{fill:#6b4a2f;opacity:.55}
 .sil{fill:#3f4f46}.line{stroke:#3f4f46;stroke-width:2.4;stroke-linecap:round;fill:none}
-.sleigh{opacity:.5;transform:translate(860px,120px) rotate(-3deg)}
+.sleigh{opacity:.5;transform:translate(860px,155px) rotate(-3deg)}
 .nose{fill:#e5505c}
 @media (prefers-color-scheme: dark){
 .b1{opacity:.42}.b2{opacity:.34}.b3{opacity:.24}.b4{opacity:.30}.fl{fill:#ffffff}.wire{stroke:#a0a696;opacity:.35}.glow{opacity:.22}
@@ -104,7 +104,7 @@ export const CHRISTMAS_SCENE = `<svg xmlns="http://www.w3.org/2000/svg" viewBox=
 @keyframes fall{from{transform:translate(0,var(--y))}to{transform:translate(var(--x),calc(var(--y) + 1060px))}}
 @keyframes twinkle{0%,100%{opacity:.25}50%{opacity:1}}
 @keyframes shine{0%,100%{opacity:.06}50%{opacity:.36}}
-@keyframes fly{0%{transform:translate(-360px,140px) rotate(-4deg)}30%{transform:translate(1900px,105px) rotate(-2deg)}100%{transform:translate(1900px,105px) rotate(-2deg)}}
+@keyframes fly{0%{transform:translate(-360px,175px) rotate(-4deg)}30%{transform:translate(1900px,140px) rotate(-2deg)}100%{transform:translate(1900px,140px) rotate(-2deg)}}
 @keyframes bob{50%{transform:translateY(-7px)}}
 .b1{animation:d1 22s ease-in-out infinite}
 .b2{animation:d2 27s ease-in-out infinite}
