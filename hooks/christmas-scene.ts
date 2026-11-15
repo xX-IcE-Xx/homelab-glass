@@ -82,7 +82,7 @@ export const CHRISTMAS_SCENE = `<svg xmlns="http://www.w3.org/2000/svg" viewBox=
 .glow{opacity:.16}.bulb{opacity:.9}.wire{stroke:#3f4f46;opacity:.45}
 .pine{fill:#2f6b4a;opacity:.55}.trunk{fill:#6b4a2f;opacity:.55}
 .sil{fill:#3f4f46}.line{stroke:#3f4f46;stroke-width:2.4;stroke-linecap:round;fill:none}
-.sleigh{opacity:.5;transform:translate(860px,150px) rotate(-6deg)}
+.sleigh{opacity:.5;transform:translate(860px,120px) rotate(-3deg)}
 .nose{fill:#e5505c}
 @media (prefers-color-scheme: dark){
 .b1{opacity:.42}.b2{opacity:.34}.b3{opacity:.24}.b4{opacity:.30}.fl{fill:#ffffff}.wire{stroke:#a0a696;opacity:.35}.glow{opacity:.22}
@@ -93,7 +93,7 @@ export const CHRISTMAS_SCENE = `<svg xmlns="http://www.w3.org/2000/svg" viewBox=
 /* A media rule reads the scene's own box: on a narrow or tall one, pull the glows and trees in from the cropped sides; on a very wide one, lift the trees and drop the lights. */
 @media (max-aspect-ratio: 13/10){.treesL{transform:translate(170px,0)}.treesR{transform:translate(-170px,0)}}
 @media (max-aspect-ratio: 1/1){.left{transform:translate(250px,0)}.right{transform:translate(-250px,0)}.treesL{transform:translate(480px,0) scale(.8)}.treesR{transform:translate(-160px,0) scale(.8)}}
-@media (min-aspect-ratio: 2/1){.string{transform:translate(0,190px)}.treesL,.treesR{transform:translate(0,-190px)}}
+@media (min-aspect-ratio: 2/1){.string,.sky{transform:translate(0,190px)}.treesL,.treesR{transform:translate(0,-190px)}}
 .treesL,.treesR{transform-origin:800px 1000px}
 @media (prefers-reduced-motion: no-preference){
 .b1,.b2,.b3,.b4,.fl,.sleigh{will-change:transform}
@@ -104,7 +104,7 @@ export const CHRISTMAS_SCENE = `<svg xmlns="http://www.w3.org/2000/svg" viewBox=
 @keyframes fall{from{transform:translate(0,var(--y))}to{transform:translate(var(--x),calc(var(--y) + 1060px))}}
 @keyframes twinkle{0%,100%{opacity:.25}50%{opacity:1}}
 @keyframes shine{0%,100%{opacity:.06}50%{opacity:.36}}
-@keyframes fly{0%{transform:translate(-360px,300px) rotate(-9deg)}30%{transform:translate(1900px,70px) rotate(-5deg)}100%{transform:translate(1900px,70px) rotate(-5deg)}}
+@keyframes fly{0%{transform:translate(-360px,140px) rotate(-4deg)}30%{transform:translate(1900px,105px) rotate(-2deg)}100%{transform:translate(1900px,105px) rotate(-2deg)}}
 @keyframes bob{50%{transform:translateY(-7px)}}
 .b1{animation:d1 22s ease-in-out infinite}
 .b2{animation:d2 27s ease-in-out infinite}
@@ -122,13 +122,13 @@ ${flakeRules}
 <g class="right"><ellipse class="b2" cx="1472" cy="140" rx="610" ry="480" fill="url(#g2)"/></g>
 <g class="right"><ellipse class="b3" cx="1248" cy="920" rx="700" ry="580" fill="url(#g3)"/></g>
 <g class="left"><ellipse class="b4" cx="96" cy="860" rx="540" ry="450" fill="url(#g1)"/></g>
-<g class="sleigh"><g class="team">
+<g class="sky"><g class="sleigh"><g class="team">
 <path class="sil" d="M4 16 C4 34 14 40 30 40 L58 40 C68 40 72 32 72 24 L72 8 C66 13 60 22 50 24 L22 24 C14 24 12 14 4 8 Z"/>
 <path class="line" d="M0 50 L66 50 C76 50 81 44 79 37 M20 40 L20 50 M54 40 L54 50 M72 18 L128 22 L196 22"/>
 <circle class="sil" cx="24" cy="15" r="12"/><circle class="sil" cx="46" cy="12" r="7"/><path class="sil" d="M40 8 L47 -6 L54 7 Z"/>
 <use href="#deer" x="128" y="0"/><use href="#deer" x="196" y="-4"/>
 <circle class="nose" cx="229" cy="5" r="3"/>
-</g></g>
+</g></g></g>
 ${flakes}
 <g class="treesL">${treesLeft}</g>
 <g class="treesR">${treesRight}</g>
