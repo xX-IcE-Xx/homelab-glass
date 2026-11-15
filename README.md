@@ -43,3 +43,7 @@ The terminal and editors draw no look; it shows in the desktop and mobile apps.
 ```
 claude plugin disable homelab-glass
 ```
+
+## License
+
+MIT. See `LICENSE`.
