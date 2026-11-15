@@ -1,0 +1,5 @@
+{
+  "name": "homelab-glass",
+  "owner": { "name": "xX-IcE-Xx" },
+  "plugins": [{ "name": "homelab-glass", "source": "./" }]
+}
