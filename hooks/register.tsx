@@ -20,7 +20,7 @@ const LOOKS = {
     CHRISTMAS,
     'homelab-christmas-snow',
     CHRISTMAS_SCENE,
-    'Evergreen, cranberry and gold glows with light snow and a string of twinkling lights',
+    'Snowy pines with glowing lights and a lit cottage in the lower corners, falling snow, a string of lights along the top and a sleigh crossing the moon',
   ),
 }
 type LookName = keyof typeof LOOKS

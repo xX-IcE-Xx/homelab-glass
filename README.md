@@ -3,7 +3,7 @@
 A look for the Claude desktop and mobile apps, in two flavours you switch between with `/look`:
 
 - **homelab** (the default): a "Liquid Glass" look. Cool grey surfaces, one blue accent, system-style red, green and amber status colours, and a soft blue, purple, green and amber colour field drifting slowly behind the chat, with a pulsing green status dot.
-- **christmas**: pine and snow surfaces with a cranberry accent, falling snow, a string of twinkling lights, pine trees with glowing bulbs, and a sleigh that crosses the sky now and then.
+- **christmas**: pine and snow surfaces with a cranberry accent. Snow-laden pines with garlands of lights and a small lit cottage stand in the lower corners, snow falls at three depths, a slim string of lights runs along the top, and a sleigh crosses the moon (a low winter sun in light mode). With motion off, the sleigh rests on the moon and the snow stays out of the reading area.
 
 Both looks have light and dark versions and follow the app's mode. All motion is switched off when the system asks for reduced motion.
 
